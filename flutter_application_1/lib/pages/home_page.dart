@@ -14,12 +14,6 @@ class HomePage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center, // centra verticalmente
           children: [
-            Container(
-              height: 200,
-              margin: const EdgeInsets.all(10.0),
-              color: Colors.grey[300], // solo para visualizarlo
-              // child: const Center(child: Text('Aquí va algo')),
-            ),
             ElevatedButton(
               child: const Text("Ver Perfil"),
               onPressed: () {
